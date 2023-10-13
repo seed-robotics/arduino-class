@@ -2,6 +2,7 @@
 # Arduino Dice 
 ## Συνδεσμολογία χωρίς αντιστάσεις ## 
 ![dice](https://raw.githubusercontent.com/seed-robotics/arduino-class/master/ArduinoLessons/Dice/wiring.png)
+
 [Link to tinkercad](https://www.tinkercad.com/things/g6HM7NVOprF)
 ## Χρήσιμες Συναρτήσεις ## 
 
