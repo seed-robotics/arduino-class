@@ -8,7 +8,6 @@ int four[]={1,1,0,0,0,1,1};
 int five[]={1,1,0,0,1,1,1};
 int six[]={1,1,1,1,0,1,1};
 
-
 int state = 0;
 long randNumber;
 int delTime=500;
@@ -27,14 +26,13 @@ void setup(){
    number(four);
    number(five);
    number(six);
-   
  }
 
 void number(int num[]){
   for (int i=0;i<pinsNum;i++){
     digitalWrite(pins[i],num[i]);
-}
-  delay(1000);
+  }
+  delay(delTime);
   clearAll();
 }
   
