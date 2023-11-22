@@ -38,7 +38,6 @@ digitalWrite(bottomRight,HIGH);
 digitalWrite(upperLeft,HIGH);
 delay(2000);
 digitalWrite(middle,LOW);
-
 // Display Number 4
 digitalWrite(upperLeft,HIGH);
 digitalWrite(bottomLeft,HIGH);
@@ -61,6 +60,7 @@ digitalWrite(upperRight,HIGH);
 digitalWrite(middleRight,HIGH);
 digitalWrite(middleLeft,HIGH);
 delay(2000);
+
 delay(3000);
 digitalWrite(upperLeft,LOW);
 digitalWrite(bottomLeft,LOW);
