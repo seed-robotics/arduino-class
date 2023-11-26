@@ -4,15 +4,14 @@ const int right_key = A0; //define the right key pin to 7（that is the value Z�
 const int left_X = A4; //define the left X pin to A3
 const int left_Y = A5;  // define the left Y pin to A4
 const int left_key = A3; //define the left key pin to 8（that is the value Z） 
-int peos;
+int test;
 void setup() 
 {
-  int peos;
   Serial.begin(9600); //  set the baud rate to 9600
 }
 
 void loop() 
-{ int peos;
+{ int test;
   joy_read(right_X,right_Y,right_key,"right",1);
   joy_read(left_X,left_Y,left_key,"left",0);
 
