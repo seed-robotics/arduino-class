@@ -1,8 +1,10 @@
-x = 10
-print(type(x)) 
-x = 10000000000000000000000000000000000000000000
-print(type(x)) 
-x = 10.1
-print(type(x)) 
-x = 10000000000000000000000000000000000000000000.1
-print(type(x)) 
+x=1
+y=2
+
+if (x==1):
+    print("kati")
+    if (y==2):
+        print("kati allo")
+    elif (y==2):
+         
+    
